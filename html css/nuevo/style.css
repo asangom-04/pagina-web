@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos de encabezado y navegación */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-of-type {
+  margin-right: 0;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+/* Estilos para la página de inicio */
+.home {
+  background-color: #e6f9ff;
+}
+
+/* Estilos para la página Acerca de */
+.about {
+  background-color: #f9f6e6;
+}
+
+/* Estilos para la página Servicios */
+.services {
+  background-color: #f6e6f9;
+}
+
+/* Estilos para la página Contacto */
+.contact {
+  background-color: #e6f6ff;
+}
+
+/* Estilos para el contenido */
+.content {
+  margin: 20px;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+	
